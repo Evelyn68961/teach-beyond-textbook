@@ -14,7 +14,7 @@
 /coverage
 
 # next.js
-/.next/
+.next/
 /out/
 
 # production
@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local-only source material (mirrored in public/handouts/ as published PDFs)
+/content_ref/
+
+# private business strategy
+/teach-beyond-the-textbook-strategy.md
